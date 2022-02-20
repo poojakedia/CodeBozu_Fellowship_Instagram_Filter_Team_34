@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 print("Pooja")
-im = np.array(Image.open('Bozu.png'))
+im = np.array(Image.open('/Users/poojakedia/Desktop/Bozu.png'))
 
 im_R = im.copy()
 im_R[:, :, (1, 2)] = 0
