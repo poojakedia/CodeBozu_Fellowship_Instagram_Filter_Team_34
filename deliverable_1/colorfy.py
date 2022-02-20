@@ -11,9 +11,9 @@ im_G[:, :, (0, 2)] = 0
 im_B = im.copy()
 im_B[:, :, (0, 1)] = 0
 
-im_RGB = np.concatenate((im_R), axis=1)
+
 # im_RGB = np.hstack((im_R, im_G, im_B))
 # im_RGB = np.c_['1', im_R, im_G, im_B]
 
-pil_img = Image.fromarray(im_RGB)
+pil_img = Image.fromarray(im_R)
 pil_img.save('/Users/poojakedia/Desktop/new_Bozu.png')
