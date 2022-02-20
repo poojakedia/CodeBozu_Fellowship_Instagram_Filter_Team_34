@@ -1,6 +1,7 @@
-from PIL import Image
+#from PIL import Image
 import numpy as np
 
+print("Pooja")
 im = np.array(Image.open('data/src/lena_square.png'))
 
 im_R = im.copy()
